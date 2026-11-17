@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+     
+	 font-family: 'Roboto', sans-serif;
+	 background-color: #2B283A;
+	 min-height: 100vh;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+
+}
+.card {
+	 width: 268.85px;
+	 background-color: #1A1B21;
+	 border-radius: 5px;
+	 overflow: hidden;
+	 color: #FFFFFF;
+
+}
+
+.profile-img {
+width: 268.65px;
+height: 268.65px;
+object-fit: cover;
+display: block;
+}
+
+.card-body { 
+	padding: 21px 35px 24px;
+
+}
+ header { 
+    text-align: center;
+ }
+ h1 { 
+    font-size: 25px; font-weight: 700;
+ }
+  p {
+     font-size: 12.8px; color: #F3BF99; margin-top: 6px;
+    }
+    .button {
+         margin-top: 15px; display: flex;
+    }
+    .btn {
+	 width: 100%;
+	 background-color: white;
+	 color: #374151;
+	 padding: 9px;
+	 border-radius: 6px;
+	 text-align: center;
+	 text-decoration: none;
+
+    }
+     .info {
+         margin-top: 25px; 
+        }
+     .info h2 {
+     font-size: 16px; color: #F5F5F5; margin-bottom: 5px;
+     }
+     .info p { font-size: 10.24px; line-height: 1.5; color: #DCDCDC; margin-bottom: 18px; 
+     }
+     .card-footer {
+         background-color: #161619; padding: 19px 0; display: flex; justify-content: center; gap: 24px;
+         }
+         .card-footer a {
+  color: #918E9B;
+  font-size: 25px;
+}
+
